@@ -112,7 +112,16 @@ a:hover {
     overflow: hidden;
     transition: all 0.3 ease-in-out;
 }
-
+.menu-links a {
+    display: block;
+    padding: 10px;
+    text-align: center;
+    text-align: center;
+    font-size: 1.5rem;
+    color: black;
+    text-decoration: none;
+    transition: all 0.3 ease-in-out;
+}
 /* Elimina los puntos en los elementos de la lista */
 .menu-links li {
     list-style: none;
@@ -411,7 +420,7 @@ article .icon {
     margin: 1rem;
 }
 
-.contact-info-container p{
+.contact-info-container p {
     font-size: larger;
 }
 
@@ -433,4 +442,3 @@ footer {
 footer p {
     text-align: center;
 }
-
